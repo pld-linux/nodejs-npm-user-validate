@@ -1,12 +1,12 @@
 %define		pkg	npm-user-validate
 Summary:	User validations for npm
 Name:		nodejs-%{pkg}
-Version:	0.0.3
+Version:	0.1.0
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	a9c0bd52652e2518f61a088486f31a12
+# Source0-md5:	bd417f935e1f7898cb9d1864e5c5a7f0
 URL:		https://github.com/robertkowalski/npm-user-validate
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
